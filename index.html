@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lista de Compras</title>
+  <link rel="stylesheet" href="estilo.css" />
+  <!-- defer garante que o JS só execute depois do HTML estar pronto -->
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🛒 Lista de Compras</h1>
+
+    <!-- Usar <form> facilita capturar Enter. -->
+    <form id="formAdd">
+      <input type="text" id="itemInput" placeholder="Digite um item..." />
+      <!-- type="submit" para Enter funcionar -->
+      <button id="addButton" type="submit">Adicionar</button>
+    </form>
+
+    <ul id="listaDeCompras"></ul>
+  </div>
+</body>
+</html>
