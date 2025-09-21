@@ -4,7 +4,7 @@ Um projeto simples de Front-end para treinar HTML, CSS e JavaScript.
 O usuário pode adicionar itens a uma lista de compras digitando no campo de texto e clicando no botão Adicionar.
 A lista é exibida dinamicamente na tela.
 
-//<img src="./Animação.gif" alt="gif da tela operando">
+//<img src="../src/ListaDeCompras.gif" alt="gif da tela operando">
 
 ### 🚀 Tecnologias Utilizadas
 	•	HTML5 → Estrutura do projeto
