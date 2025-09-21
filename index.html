@@ -4,18 +4,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lista de Compras</title>
+
+
   <link rel="stylesheet" href="estilo.css" />
-  <!-- defer garante que o JS só execute depois do HTML estar pronto -->
-  <script src="./script.js" defer></script>
+
+
+  <!-- "defer" garante que o JS só execute depois do HTML estar pronto -->
+  <script type="text/javascript" src="./script.js" defer></script>
 </head>
 <body>
   <div class="container">
     <h1>🛒 Lista de Compras</h1>
 
-    <!-- Usar <form> facilita capturar Enter. -->
+    <!-- Usar <formAdd> facilita capturar a entrada com o Enter. -->
+      <!-- Criar o Formulário onde serão inseridos os itens com Input e o botão (Button) para Adicioná-lo  -->
     <form id="formAdd">
       <input type="text" id="itemInput" placeholder="Digite um item..." />
-      <!-- type="submit" para Enter funcionar -->
+      <!-- type="submit" para o Enter funcionar -->
       <button id="addButton" type="submit">Adicionar</button>
     </form>
 

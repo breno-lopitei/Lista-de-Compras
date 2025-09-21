@@ -4,6 +4,8 @@ Um projeto simples de Front-end para treinar HTML, CSS e JavaScript.
 O usuário pode adicionar itens a uma lista de compras digitando no campo de texto e clicando no botão Adicionar.
 A lista é exibida dinamicamente na tela.
 
+//<img src="./Animação.gif" alt="gif da tela operando">
+
 ### 🚀 Tecnologias Utilizadas
 	•	HTML5 → Estrutura do projeto
 	•	CSS3 → Estilização da interface
@@ -18,19 +20,24 @@ A lista é exibida dinamicamente na tela.
 
 ✅ Design responsivo inspirado em VS Code (dark mode)
 
-🔜 (em breve) Função para remover itens da lista
+✅ Função para remover itens da lista
 
-🔜 (em breve) Armazenamento dos itens no LocalStorage
+✅ Armazenamento dos itens no LocalStorage
 
 
 
 
 ...
 ### 🗂 Estrutura de Pastas
+
 /lista-de-compras
+
 │── index.html
+
 │── style.css
+
 │── script.js
+
 └── README.md
 
 
@@ -48,5 +55,3 @@ git clone https://github.com/seu-usuario/lista-de-compras.git
 ### 🎯 Objetivo
 
 Este projeto foi criado com o objetivo de praticar lógica de programação e manipulação do DOM, servindo como base para projetos mais avançados.
-
-//<img src="" alt="gif da tela operando">
